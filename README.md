@@ -40,5 +40,8 @@ Growing the seed mask we obtain a segmentation of the nucleus based soley on the
 
 Further methods are being tested to improve the segmentation and also carry out a segmentation of cell body.
 
+# Acknowledgment
+D. Becerril acknowledges financial support from the Mexico City Ministry of Education, Science, Technology and Innovation (2023).
+
 
 
