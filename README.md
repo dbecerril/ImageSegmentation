@@ -11,4 +11,4 @@ We begin by selecting a given region that is clearly glass, cell body or nueclue
 
 ![rf_image2](https://github.com/dbecerril/ImageSegmentation/assets/22774966/728473be-c1f8-4827-991c-4c119d5dbc48)
 
-The above image shows the classificacion based on the  training pixels of image 1. 
+The above image shows the classificacion based on the  training pixels of image 1. A further post processing is still needed to "close" the holes in each section and separate overlapping cells.
