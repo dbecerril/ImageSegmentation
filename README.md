@@ -4,3 +4,5 @@ We attempt to impliment various image segmentation techniques to better analyze 
 
 ## Trainable Random Forest
 In the uitlsRF.py we find an implemantion of  the trainable random forest technique as shown in https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_trainable_segmentation.html .
+![image](https://github.com/dbecerril/ImageSegmentation/assets/22774966/d004409d-edc3-4e36-9012-590024851557)
+
