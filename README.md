@@ -14,7 +14,7 @@ We begin by selecting a given region that is clearly glass, cell body or nueclue
 The above image shows the classificacion based on the  training pixels of image 1. A further post processing is still needed to "close" the holes in each section and separate overlapping cells.
 
 ## Hessian with Chan-Vese method
-When analysing different types of cell lines, differentiating Cell body and cell nucleus based soley on morphological features can become challenging. This can introduce error due to the subjectivity of the cell body segmentation. To overcome this we try a cell segmentation based ont the following method. 
+When analysing different types of cell lines, differentiating Cell body and cell nucleus based soley on morphological features can become challenging. This can introduce error due to the subjectivity of the cell body segmentation. To overcome this we try a cell segmentation based ont the following method which is found in the "segmentation_v0.ipynb" notebook. The method consists of: 
 
 1.- Preprocessing: reducing artefact introduced by the AFM microsocpe.
 
