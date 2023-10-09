@@ -14,3 +14,10 @@ We begin by selecting a given region that is clearly glass, cell body or nueclue
 The above image shows the classificacion based on the  training pixels of image 1. A further post processing is still needed to "close" the holes in each section and separate overlapping cells.
 
 ## Hessian with Chan-Vese method
+When analysing different types of cell lines, differentiating Cell body and cell nucleus based soley on morphological features can become challenging. This can introduce error due to the subjectivity of the cell body segmentation. To overcome this we try a cell segmentation based ont the following method. 
+1.- Preprocessing: reducing artefact introduced by the AFM microsocpe.
+2- Identificaction of the cell within the image 
+3.- Calculation of Hessian eigenvalues for each pixel in image and definition of "seed mask" using the Hessian Method.
+4.- Growing of mask using the Van- Chese method as shown in Chan and Vese "Active contours without edges" 10.1109/83.902291. 
+
+We consider an example of an U2 osteosarcoma cell line.
