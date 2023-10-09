@@ -18,11 +18,27 @@ When analysing different types of cell lines, differentiating Cell body and cell
 
 1.- Preprocessing: reducing artefact introduced by the AFM microsocpe.
 
-2- Identificaction of the cell within the image 
+2- Image size redution, gaussian blurring and calculation of hessian for each pixel in image
 
 3.- Calculation of Hessian eigenvalues for each pixel in image and definition of "seed mask" using the Hessian Method.
 
 4.- Growing of mask using the Van- Chese method as shown in Chan and Vese "Active contours without edges" 10.1109/83.902291. 
 
 
-We consider an example of an U2 osteosarcoma cell line.
+
+We consider an example of an U2 osteosarcoma cell line. The first image shows a preprocessed image taken from the AFM microscope in which a cell has been centered and afm artefacts have been removed.
+
+![van_chese_1](https://github.com/dbecerril/ImageSegmentation/assets/22774966/7d54d2c8-c348-4b05-a2ff-3326161733a3)
+
+We then carry out steps (2) and (3)
+
+![van_chese_2](https://github.com/dbecerril/ImageSegmentation/assets/22774966/2becc394-e875-48e7-bc03-1f810198ef6b)
+
+Growing the seed mask we obtain a segmentation of the nucleus based soley on the cell morphology
+
+![van chese 3](https://github.com/dbecerril/ImageSegmentation/assets/22774966/4a9b2c28-4a04-4dc8-905f-114e1ff13c32)
+
+Further methods are being tested to improve the segmentation and also carry out a segmentation of cell body.
+
+
+
